@@ -1,0 +1,43 @@
+.home-end{
+    height: 300px;
+    width: 100%;
+    grid-column: 1 / span 2; 
+    text-align: center;
+    background-color: #E2F4C5;
+    margin-bottom: 3%;
+}
+
+.box{
+    background-color: #f0f0f0;
+}
+
+h1{
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+    "YOPQ" 300;
+    font-size: 300%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.endcontent{
+    padding-top: 2%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,1fr);
+    gap: 10px;
+    justify-content: space-around;
+}
+h6{
+    width: 70%;
+    padding-left: 21%;
+    text-align: left;
+}
+.list{
+    width: 70%;
+    padding-left: 40%;
+    text-align: left;
+}

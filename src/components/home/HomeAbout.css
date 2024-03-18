@@ -1,0 +1,44 @@
+.container{
+    margin-top: 3%;
+    width: 100%;
+    height: auto;
+    grid-column: 1 / span 2; 
+    margin-bottom: 6%;
+}
+.title{
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+    "YOPQ" 300;
+    font-size: 300%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.my-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    grid-template-rows: repeat(2, 1fr); /* Two equal rows */
+    gap: 10px; /* Gap between grid items */
+}
+
+.item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+.item > p{
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+    "YOPQ" 300;
+    font-size: 100%;
+    text-align: center;
+}
+
+.grad{
+    background-image: linear-gradient(#f0f0f0,#A8CD9F);
+}

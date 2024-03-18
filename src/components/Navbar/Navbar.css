@@ -1,0 +1,36 @@
+
+.navbar .navbar-nav .nav-item .btn {
+    margin-right: 40px; /* Add space between buttons */
+    color: #fff; /* Set text color to white */
+    border-color: #28a745; /* Set border color to match background color */
+  }
+  
+  .navbar .navbar-nav .nav-item .btn:hover {
+    background-color: #218838; /* Darker green on hover */
+    border-color: #218838; /* Darker border color on hover */
+  }
+.container{
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.navbar{
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
+    margin: 0em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.btn{
+    margin: 10px;
+}
+
+hr{
+    width: auto;
+    height: 10px;
+    background-color: #9FC031;
+    margin-top: 0% !important;
+    margin-bottom: 0% !important;
+    z-index: 1;
+}
+
